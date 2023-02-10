@@ -1,0 +1,111 @@
+@font-face {
+  font-display: swap;
+  font-family: "Outfit";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/outfit-v6-latin-400.eot");
+  src: url("../fonts/outfit-v6-latin-400.eot?#iefix") format("embedded-opentype"), url("../fonts/outfit-v6-latin-400.woff2") format("woff2"), url("../fonts/outfit-v6-latin-400.woff") format("woff"), url("../fonts/outfit-v6-latin-400.ttf") format("truetype"), url("../fonts/outfit-v6-latin-400.svg#Outfit") format("svg");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Outfit";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/outfit-v6-latin-700.eot");
+  src: url("../fonts/outfit-v6-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/outfit-v6-latin-700.woff2") format("woff2"), url("../fonts/outfit-v6-latin-700.woff") format("woff"), url("../fonts/outfit-v6-latin-700.ttf") format("truetype"), url("../fonts/outfit-v6-latin-700.svg#Outfit") format("svg");
+}
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  text-size-adjust: none;
+}
+
+footer, header, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+body {
+  background-color: hsl(212deg, 45%, 89%);
+  font-family: "Outfit", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+}
+.card {
+  max-width: 500px;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 10px 20px -5px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 10px 20px -5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 10px 20px -5px rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  background-color: hsl(0deg, 0%, 100%);
+  padding: 1.5rem;
+  text-align: center;
+}
+.card img {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  border-radius: 15px;
+}
+.card h2 {
+  font-size: 1.9rem;
+  font-weight: 700;
+  padding: 2rem;
+  line-height: 2.5rem;
+  color: hsl(218deg, 44%, 22%);
+}
+.card p {
+  padding: 0 2rem 2rem;
+  color: hsl(220deg, 15%, 55%);
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+}
+
+.attribution {
+  text-align: center;
+}
+
+/*# sourceMappingURL=main.css.map */

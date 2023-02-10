@@ -1,0 +1,26 @@
+{
+	"name": "qr_code_component",
+	"version": "1.0.0",
+	"description": "This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. ",
+	"main": "index.html",
+	"scripts": {
+		"sync": "browser-sync start --proxy 'https://localhost/___frontendmentor_io/qr_code_component/' --files './*.html' './dist/**/*.*' --no-open --https",
+		"watch:sass": "sass --watch src/sass:dist/css",
+		"dev": "concurrently --names \"SYNC, SASS\" -c \"bgBlue.bold,bgMagenta.bold,\" \"npm run sync\" \"npm run watch:sass\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/paulbrause/frontend_mentor___qr_code_component.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/paulbrause/frontend_mentor___qr_code_component/issues"
+	},
+	"homepage": "https://github.com/paulbrause/frontend_mentor___qr_code_component#readme",
+	"devDependencies": {
+		"browser-sync": "latest",
+		"concurrently": "latest",
+		"sass": "^1.58.0"
+	}
+}

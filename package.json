@@ -19,8 +19,8 @@
 	},
 	"homepage": "https://github.com/paulbrause/frontend_mentor___qr_code_component#readme",
 	"devDependencies": {
-		"browser-sync": "latest",
-		"concurrently": "latest",
+		"browser-sync": "^2.27.11",
+		"concurrently": "^7.6.0",
 		"sass": "^1.58.0"
 	}
 }

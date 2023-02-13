@@ -73,6 +73,7 @@ body {
   justify-content: space-between;
   padding: 2rem;
 }
+
 .card {
   max-width: 500px;
   overflow: hidden;
